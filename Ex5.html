@@ -1,0 +1,72 @@
+<!--Reproduire l'image correspondant à l'exercice.
+Pour le CSS le mettre dans une balise style.
+Pour faire le tableau, il faut se servir des balises thead, tfoot et tbody.
+Vous ne devez pas utiliser d'attribut style dans cet exercice.-->
+
+<DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8" />
+      <title>343 Guilty Spark</title>
+      <style>
+      table {
+        border-collapse: collapse;
+      }
+      td, th {
+        border: 1px solid black;
+      }
+      th[colspan="2"] {
+        font-weight: normal;
+      }
+      </style>
+    </head>
+    <body>
+      <table>
+        <caption>Mon compte BNP</caption>
+        <thead>
+          <th>Date</th>
+          <th>Libellé</th>
+          <th>Crédit</th>
+          <th>Débit</th>
+        </thead>
+        <tfoot>
+          <tr>
+            <th colspan="2">Solde</th>
+            <th colspan="2">575,40</th>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td>01/05/2016</td>
+            <td>Paye</td>
+            <td>1500</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>01/05/2016</td>
+            <td>Course de la semaine</td>
+            <td>0</td>
+            <td>152,30</td>
+          </tr>
+          <tr>
+            <td>04/05/2016</td>
+            <td>Mc do</td>
+            <td>0</td>
+            <td>32,40</0td>
+          </tr>
+          <tr>
+            <td>Loyer</td>
+            <td>05/05/2016</td>
+            <td>0</td>
+            <td>700</td>
+          </tr>
+          <tr>
+            <td>05/05/2016</td>
+            <td>Internet</td>
+            <td>0</td>
+            <td>39,90</td>
+          </tr>
+        </tbody>
+      </table>
+    </body>
+  </html>
